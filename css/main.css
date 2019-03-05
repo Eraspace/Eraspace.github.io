@@ -343,19 +343,30 @@ template {
 /* end of normalization */
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	text-align: center;
-	color: #333333;
+	color: #2d2d35;
+  background-color: #f6b93b;
 }
 
 a {
-	color: orangered;
-	text-decoration: none;
+  font-weight: 400;
+  color: #2d2d35;
+  text-decoration: none;
+  border-bottom: 1px solid #2d2d35;
+}
+
+a:clicked {
+  font-weight: 400;
+  color: #2d2d35;
+  text-decoration: none;
+  border-bottom: 1px solid #f6b93b;
+  transition: color 1s;
 }
 
 p {
-	margin: 0px;
+	margin: 5px;
 }
 
 .center {
@@ -366,15 +377,7 @@ p {
 	width: 100%;
 }
 
-.logotype {
-	font-size: 18px;
-	font-weight: bolder;
-	letter-spacing: 3px;
-	color: orangered;
-}
-
 .larger {
-	font-weight: bolder;
-	margin: 5px;
-	font-size: 35px;
+	font-weight: 900;
+	font-size: 36px;
 }
