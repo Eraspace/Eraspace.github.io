@@ -346,22 +346,22 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	text-align: center;
-	color: #2d2d35;
-  background-color: #f6b93b;
+	color: #f6b93b;
+  background-color: #2d2d35;
 }
 
 a {
   font-weight: 400;
-  color: #2d2d35;
+  color: #f6b93b;
   text-decoration: none;
-  border-bottom: 1px solid #2d2d35;
+  border-bottom: 1px solid #f6b93b;
 }
 
 a:clicked {
   font-weight: 400;
-  color: #2d2d35;
+  color: #f6b93b;
   text-decoration: none;
-  border-bottom: 1px solid #f6b93b;
+  border-bottom: 1px solid #2d2d35;
   transition: color 1s;
 }
 
